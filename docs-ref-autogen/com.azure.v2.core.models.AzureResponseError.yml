@@ -1,0 +1,97 @@
+### YamlMime:JavaType
+uid: "com.azure.v2.core.models.AzureResponseError"
+fullName: "com.azure.v2.core.models.AzureResponseError"
+name: "AzureResponseError"
+nameWithType: "AzureResponseError"
+summary: "Represents the error details of an HTTP response."
+inheritances:
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public final class **AzureResponseError**</br> implements <xref href=\"io.clientcore.core.serialization.json.JsonSerializable?alt=io.clientcore.core.serialization.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.v2.core.models.AzureResponseError?alt=com.azure.v2.core.models.AzureResponseError&text=AzureResponseError\" data-throw-if-not-resolved=\"False\" />&gt;"
+constructors:
+- uid: "com.azure.v2.core.models.AzureResponseError.AzureResponseError(java.lang.String,java.lang.String)"
+  fullName: "com.azure.v2.core.models.AzureResponseError.AzureResponseError(String code, String message)"
+  name: "AzureResponseError(String code, String message)"
+  nameWithType: "AzureResponseError.AzureResponseError(String code, String message)"
+  summary: "Creates an instance of <xref uid=\"com.azure.v2.core.models.AzureResponseError\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureResponseError\"></xref>."
+  parameters:
+  - description: "the error code of this error."
+    name: "code"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  - description: "the error message of this error."
+    name: "message"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "public AzureResponseError(String code, String message)"
+  desc: "Creates an instance of <xref uid=\"com.azure.v2.core.models.AzureResponseError\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureResponseError\"></xref>."
+methods:
+- uid: "com.azure.v2.core.models.AzureResponseError.fromJson(io.clientcore.core.serialization.json.JsonReader)"
+  fullName: "com.azure.v2.core.models.AzureResponseError.fromJson(JsonReader jsonReader)"
+  name: "fromJson(JsonReader jsonReader)"
+  nameWithType: "AzureResponseError.fromJson(JsonReader jsonReader)"
+  summary: "Reads a JSON stream into a <xref uid=\"com.azure.v2.core.models.AzureResponseError\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureResponseError\"></xref>."
+  modifiers:
+  - "static"
+  parameters:
+  - description: "The <xref uid=\"io.clientcore.core.serialization.json.JsonReader\" data-throw-if-not-resolved=\"false\" data-raw-source=\"JsonReader\"></xref> being read."
+    name: "jsonReader"
+    type: "<xref href=\"io.clientcore.core.serialization.json.JsonReader?alt=io.clientcore.core.serialization.json.JsonReader&text=JsonReader\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static AzureResponseError fromJson(JsonReader jsonReader)"
+  exceptions:
+  - description: "If the deserialized JSON object was missing any required properties."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  desc: "Reads a JSON stream into a <xref uid=\"com.azure.v2.core.models.AzureResponseError\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureResponseError\"></xref>."
+  returns:
+    description: "The <xref uid=\"com.azure.v2.core.models.AzureResponseError\" data-throw-if-not-resolved=\"false\" data-raw-source=\"AzureResponseError\"></xref> that the JSON stream represented, or null if it pointed to JSON null."
+    type: "<xref href=\"com.azure.v2.core.models.AzureResponseError?alt=com.azure.v2.core.models.AzureResponseError&text=AzureResponseError\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.v2.core.models.AzureResponseError.getCode()"
+  fullName: "com.azure.v2.core.models.AzureResponseError.getCode()"
+  name: "getCode()"
+  nameWithType: "AzureResponseError.getCode()"
+  summary: "Returns the error code of this error."
+  syntax: "public String getCode()"
+  desc: "Returns the error code of this error."
+  returns:
+    description: "the error code of this error."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.v2.core.models.AzureResponseError.getMessage()"
+  fullName: "com.azure.v2.core.models.AzureResponseError.getMessage()"
+  name: "getMessage()"
+  nameWithType: "AzureResponseError.getMessage()"
+  summary: "Returns the error message of this error."
+  syntax: "public String getMessage()"
+  desc: "Returns the error message of this error."
+  returns:
+    description: "the error message of this error."
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+- uid: "com.azure.v2.core.models.AzureResponseError.toJson(io.clientcore.core.serialization.json.JsonWriter)"
+  fullName: "com.azure.v2.core.models.AzureResponseError.toJson(JsonWriter jsonWriter)"
+  name: "toJson(JsonWriter jsonWriter)"
+  nameWithType: "AzureResponseError.toJson(JsonWriter jsonWriter)"
+  parameters:
+  - name: "jsonWriter"
+    type: "<xref href=\"io.clientcore.core.serialization.json.JsonWriter?alt=io.clientcore.core.serialization.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public JsonWriter toJson(JsonWriter jsonWriter)"
+  exceptions:
+  - type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html\">IOException</a>"
+  returns:
+    type: "<xref href=\"io.clientcore.core.serialization.json.JsonWriter?alt=io.clientcore.core.serialization.json.JsonWriter&text=JsonWriter\" data-throw-if-not-resolved=\"False\" />"
+type: "class"
+desc: "Represents the error details of an HTTP response.\n\nThis class encapsulates the details of an HTTP error response, including the error code, message, target, inner error, and additional error details. It provides methods to access these properties.\n\nThis class also provides a <xref uid=\"com.azure.v2.core.models.AzureResponseError.toJson(io.clientcore.core.serialization.json.JsonWriter)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#toJson(JsonWriter)\"></xref> method to serialize the error details to JSON, and a <xref uid=\"com.azure.v2.core.models.AzureResponseError.fromJson(io.clientcore.core.serialization.json.JsonReader)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#fromJson(JsonReader)\"></xref> method to deserialize the error details from JSON."
+implements:
+- "<xref href=\"io.clientcore.core.serialization.json.JsonSerializable?alt=io.clientcore.core.serialization.json.JsonSerializable&text=JsonSerializable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.v2.core.models.AzureResponseError?alt=com.azure.v2.core.models.AzureResponseError&text=AzureResponseError\" data-throw-if-not-resolved=\"False\" />&gt;"
+metadata: {}
+package: "com.azure.v2.core.models"
+artifact: com.azure.v2:azure-core:2.0.0-alpha.20251117.1

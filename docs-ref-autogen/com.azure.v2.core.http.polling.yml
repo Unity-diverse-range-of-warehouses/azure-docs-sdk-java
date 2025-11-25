@@ -1,0 +1,22 @@
+### YamlMime:JavaPackage
+uid: "com.azure.v2.core.http.polling"
+fullName: "com.azure.v2.core.http.polling"
+name: "com.azure.v2.core.http.polling"
+summary: "This package contains utility classes and interfaces for handling long-running operations in the Azure client libraries."
+classes:
+- "com.azure.v2.core.http.polling.ChainedPollingStrategy"
+- "com.azure.v2.core.http.polling.DefaultPollingStrategy"
+- "com.azure.v2.core.http.polling.LocationPollingStrategy"
+- "com.azure.v2.core.http.polling.LongRunningOperationStatus"
+- "com.azure.v2.core.http.polling.OperationResourcePollingStrategy"
+- "com.azure.v2.core.http.polling.PollResponse"
+- "com.azure.v2.core.http.polling.PollingContext"
+- "com.azure.v2.core.http.polling.PollingStrategyOptions"
+- "com.azure.v2.core.http.polling.StatusCheckPollingStrategy"
+interfaces:
+- "com.azure.v2.core.http.polling.Poller"
+- "com.azure.v2.core.http.polling.PollingStrategy"
+desc: "This package contains utility classes and interfaces for handling long-running operations in the Azure client libraries.\n\nLong-running operations are operations such as the creation or deletion of a resource, which take a significant amount of time to complete. These operations are typically handled asynchronously, with the client initiating the operation and then polling the service at intervals to determine whether the operation has completed.\n\nThis package provides a standard mechanism for initiating, tracking, and retrieving the results of long-running operations"
+metadata: {}
+package: "com.azure.v2.core.http.polling"
+artifact: com.azure.v2:azure-core:2.0.0-alpha.20251117.1

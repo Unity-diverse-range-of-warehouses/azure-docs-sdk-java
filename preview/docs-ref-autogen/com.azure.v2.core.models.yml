@@ -1,0 +1,12 @@
+### YamlMime:JavaPackage
+uid: "com.azure.v2.core.models"
+fullName: "com.azure.v2.core.models"
+name: "com.azure.v2.core.models"
+summary: "This package contains the core model classes used across the Azure SDK."
+classes:
+- "com.azure.v2.core.models.AzureCloud"
+- "com.azure.v2.core.models.AzureResponseError"
+desc: "This package contains the core model classes used across the Azure SDK.\n\nThese classes provide common structures and functionality for working with Azure services. They include representations for various types of data.\n\nClasses in this package are typically used as base classes or utility classes, and are extended or used by other classes in the Azure SDK to provide service-specific functionality."
+metadata: {}
+package: "com.azure.v2.core.models"
+artifact: com.azure.v2:azure-core:2.0.0-alpha.20251117.1
