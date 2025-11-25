@@ -1,0 +1,35 @@
+{
+  "Name": "azure-resourcemanager",
+  "Version": "2.57.0-alpha.20251124.7",
+  "DevVersion": "2.57.0-alpha.20251124.7",
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager",
+  "ServiceDirectory": "resourcemanager",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager/CHANGELOG.md",
+  "Group": "com.azure.resourcemanager",
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-resourcemanager",
+  "ReleaseStatus": "2025-11-25",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    "com.azure.resourcemanager:azure-resourcemanager-samples",
+    "com.azure.resourcemanager:azure-resourcemanager-perf",
+    "com.azure:perf-test-core"
+  ],
+  "ArtifactDetails": {
+    "releaseInBatch": "${{ parameters.release_azureresourcemanager }}",
+    "name": "azure-resourcemanager",
+    "groupId": "com.azure.resourcemanager",
+    "safeName": "azureresourcemanager",
+    "triggeringPaths": [
+      "/sdk/resourcemanager/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "Namespaces": [
+    "com.azure.resourcemanager"
+  ]
+}
