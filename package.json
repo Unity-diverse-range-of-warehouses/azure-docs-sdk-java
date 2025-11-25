@@ -12,7 +12,7 @@
         "packageArtifactId": "azure-core",
         "packageGroupId": "com.azure.v2",
         "packageVersion": "2.0.0-alpha.20251117.1",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2"
+        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       }
     ],
     "language": "java"
@@ -30,7 +30,7 @@
         "packageArtifactId": "azure-core",
         "packageGroupId": "com.azure.v2",
         "packageVersion": "2.0.0-alpha.20251117.1",
-        "packageDownloadUrl": "https://repo1.maven.org/maven2"
+        "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1"
       }
     ],
     "language": "java"
