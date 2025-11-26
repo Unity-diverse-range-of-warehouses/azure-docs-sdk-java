@@ -1,7 +1,7 @@
 {
   "Name": "azure-search-documents",
-  "Version": "11.9.0-beta.1",
-  "DevVersion": null,
+  "Version": "11.9.0-alpha.20251125.1",
+  "DevVersion": "11.9.0-alpha.20251125.1",
   "DirectoryPath": "sdk/search/azure-search-documents",
   "ServiceDirectory": "search",
   "ReadMePath": "sdk/search/azure-search-documents/README.md",
@@ -10,7 +10,7 @@
   "SdkType": "client",
   "IsNewSdk": true,
   "ArtifactName": "azure-search-documents",
-  "ReleaseStatus": "2025-11-17",
+  "ReleaseStatus": "Unreleased",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
     "com.azure:azure-search-perf",
@@ -18,12 +18,12 @@
   ],
   "ArtifactDetails": {
     "releaseInBatch": "${{ parameters.release_azuresearchdocuments }}",
-    "safeName": "azuresearch",
-    "name": "azure-search-documents",
     "groupId": "com.azure",
+    "name": "azure-search-documents",
     "triggeringPaths": [
       "/sdk/search/ci.yml"
-    ]
+    ],
+    "safeName": "azuresearch"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
