@@ -1609,7 +1609,6 @@
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-readme.md
       children:
       - com.azure.messaging.eventgrid
-      - com.azure.messaging.eventgrid.models
       - com.azure.messaging.eventgrid.systemevents
     - name: CloudNative CloudEvents with Event Grid  (deprecated)
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-cloudnative-cloudevents-readme.md
@@ -1623,7 +1622,6 @@
     - name: System Events
       href: ~/docs-ref-services/{moniker}/messaging-eventgrid-systemevents-readme.md
       children:
-      - com.azure.messaging.eventgrid
       - com.azure.messaging.eventgrid.systemevents
       - com.azure.messaging.eventgrid.systemevents.models
     - name: Management
@@ -3157,10 +3155,6 @@
       - name: Resource Management - PostgreSQL Flexible Server
         href: ~/docs-ref-services/{moniker}/resourcemanager-postgresqlflexibleserver-readme.md
         children:
-        - com.azure.resourcemanager.postgresqlflexibleserver
-        - com.azure.resourcemanager.postgresqlflexibleserver.fluent
-        - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models
-        - com.azure.resourcemanager.postgresqlflexibleserver.models
         - com.azure.resourcemanager.postgresqlflexibleserver
         - com.azure.resourcemanager.postgresqlflexibleserver.fluent
         - com.azure.resourcemanager.postgresqlflexibleserver.fluent.models
