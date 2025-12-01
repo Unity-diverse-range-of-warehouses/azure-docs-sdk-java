@@ -1,7 +1,7 @@
 {
   "Name": "azure-resourcemanager-netapp",
-  "Version": "1.10.0-beta.1",
-  "DevVersion": null,
+  "Version": "2.1.0-alpha.20251201.1",
+  "DevVersion": "2.1.0-alpha.20251201.1",
   "DirectoryPath": "sdk/netapp/azure-resourcemanager-netapp",
   "ServiceDirectory": "netapp",
   "ReadMePath": "sdk/netapp/azure-resourcemanager-netapp/README.md",
@@ -10,15 +10,15 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-resourcemanager-netapp",
-  "ReleaseStatus": "2025-10-15",
+  "ReleaseStatus": "2025-11-28",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": null,
   "ArtifactDetails": {
-    "safeName": "azureresourcemanagernetapp",
-    "groupId": "com.azure.resourcemanager",
     "triggeringPaths": [
       "/sdk/netapp/ci.yml"
     ],
+    "safeName": "azureresourcemanagernetapp",
+    "groupId": "com.azure.resourcemanager",
     "name": "azure-resourcemanager-netapp"
   },
   "CIParameters": {
